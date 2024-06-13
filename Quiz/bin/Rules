@@ -1,0 +1,18 @@
+package quiz.application;
+
+import javax.swing.*;
+
+public class Rules extends JFrame
+{
+    Rules()
+    {
+        setSize(800,650);
+        setLocation(350, 100);
+        setVisible(true);
+
+    }
+    public static void main(String []  args)
+    {
+        new Rules();
+    }
+}
